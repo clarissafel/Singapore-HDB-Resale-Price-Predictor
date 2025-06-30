@@ -10,7 +10,7 @@ A Streamlit web application that predicts resale prices of HDB flats in Singapor
 ## Demo
 [Live App Demo](https://singapore-hdb-resale-price-predictor-jefnhchbrdrrvczsxrqkyv.streamlit.app/)
 
-<img width="1462" alt="streamlit web app" src="https://github.com/user-attachments/assets/cd4b6ddd-e656-4817-8e5c-1101da5e813f" />
+![streamlit app screenshot](https://github.com/user-attachments/assets/335d4812-88f0-4a80-9c42-3758b1e374c5)
 
 
 ## Installation
