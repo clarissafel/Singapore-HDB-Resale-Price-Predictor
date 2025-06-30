@@ -1,19 +1,20 @@
-# Singapore HDB Resale Price Analysis and Prediction
+# 🏘️ Singapore HDB Resale Price Analysis and Prediction
 
 Data analysis on Singapore HDB resale data to visualize how different factors affect pricing, such as pricing trends over time, across towns and flat characteristics.\
-A Streamlit web application that predicts resale prices of HDB flats in Singapore using machine learning.
+A Streamlit web application that predicts resale prices of HDB flats in Singapore using machine learning.\
+[Interactive Tableau dashboard](https://public.tableau.com/app/profile/clarissa.nurawan/viz/SingaoreHDBResalePricingTrends/Dashboard1) to visualize spatial and temporal trends in resale prices.
 
-## Data
+## 📊 Data
 [HDB Resale Flat Prices](https://data.gov.sg/datasets?page=1&query=hdb+resale&resultId=189) (from data.gov.sg)
 - Resale transactions: Jan 2015 - June 2025, ~244,000 transactions with features such as `town`, `flat_type`, `floor_area_sqm`, `flat_model` and `remaining_lease`.
 
-## Demo
+## 🖥️ Demo
 [Live App Demo](https://singapore-hdb-resale-price-predictor-jefnhchbrdrrvczsxrqkyv.streamlit.app/)
 
 ![streamlit app screenshot](https://github.com/user-attachments/assets/335d4812-88f0-4a80-9c42-3758b1e374c5)
 
 
-## Installation
+## 🔧 Installation
 To run locally:
 1. Clone repository
    ```bash
@@ -30,7 +31,7 @@ To run locally:
    ```bash
    streamlit run hdb-resale-price-predictor.py
 
-## Top Features that affect resale price
+## 📈 Top Features that affect resale price
 1. `is_mature`
    - Mature estates typically command higher prices due to established amenities
 2. `flat_type`
@@ -45,7 +46,7 @@ To run locally:
    - eg. `flat_model_Terrace`, `flat_model_Model A`
    - Different types of flats like terrace and the common HDB model influences price.
 
-## Prediction Model details
+## ⚖️ Prediction Model details
 
 **Algorithm: Random Forest**\
 Results:\
